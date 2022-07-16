@@ -25,7 +25,7 @@ export const MIGRATE_BUTTON_TEXT = 'Perkelti pasiekimus'
 export const MIGRATE_DESCRIPTION_TEXT =
     'Paspauskite norėdami perkelti savo pasiekimus į kitą įrenginį'
 export const TOTAL_TRIES_TEXT = 'Sužaista'
-export const SUCCESS_RATE_TEXT = 'Sėkmės'
+export const SUCCESS_RATE_TEXT = 'Sėkmė'
 export const CURRENT_STREAK_TEXT = 'Atspėta iš eilės'
 export const BEST_STREAK_TEXT = 'Ilgiausia eilė'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
