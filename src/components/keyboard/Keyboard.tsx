@@ -41,8 +41,11 @@ export const Keyboard = ({
         onDelete()
       } else {
         const key = localeAwareUpperCase(e.key)
-        // TODO: check this test if the range works with non-english letters
-        if (key.length === 1 && key >= 'A' && key <= 'Z') {
+        if (key.length === 1 && (
+              key >= 'A' && key <= 'Z' ||
+              ['Ą','Č','Ę','Ė','Į','Š','Ų','Ū','Ž'].includes(key)
+            )
+        ) {
           onChar(key)
         }
       }
