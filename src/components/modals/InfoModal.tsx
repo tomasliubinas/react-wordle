@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
         <p className="text-sm text-gray-500 dark:text-gray-300">
-            Po kiekvieno spėjimo raidžių spalva parodys ar priartėjote prie tikslo.
+            Po kiekvieno spėjimo raidžių spalva parodo spėjimo tikslumą:
         </p>
 
 
@@ -55,7 +55,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         </a>{' '}
 
           <p className="text-sm text-gray-500 dark:text-gray-300">
-              Įgyvendino T. Liubinas
+              Parengė T. Liubinas
           </p>
 
       </p>

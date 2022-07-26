@@ -20,7 +20,7 @@ export const DELETE_TEXT = '⌫'
 export const STATISTICS_TITLE = 'Pasiekimai'
 export const GUESS_DISTRIBUTION_TEXT = 'Sėkmingi spėjimai'
 export const NEW_WORD_TEXT = 'Naujas žodis už'
-export const SHARE_TEXT = 'Dalintis'
+export const SHARE_TEXT = 'Kopijuoti rezultatą'
 export const MIGRATE_BUTTON_TEXT = 'Perkelti pasiekimus'
 export const MIGRATE_DESCRIPTION_TEXT =
     'Paspauskite norėdami perkelti savo pasiekimus į kitą įrenginį'

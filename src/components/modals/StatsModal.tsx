@@ -1,5 +1,5 @@
 import Countdown from 'react-countdown'
-import { ShareIcon } from '@heroicons/react/outline'
+import { DuplicateIcon } from '@heroicons/react/outline'
 import { StatBar } from '../stats/StatBar'
 import { Histogram } from '../stats/Histogram'
 import { GameStats } from '../../lib/localStorage'
@@ -101,7 +101,7 @@ export const StatsModal = ({
                 )
               }}
             >
-              <ShareIcon className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white" />
+              <DuplicateIcon className="h-6 w-6 mr-2 cursor-pointer dark:stroke-white" />
               {SHARE_TEXT}
             </button>
           </div>
